@@ -24,7 +24,8 @@ int[] myArray2 = {2,4,6,8,10};
 
 product(myArray1, myArray2) → {2,12,30,56,90}
 
-4. Given an array of Strings, write a method called capitalCount that calculates the number of capital letters in each String and stores them into an array. The method capitalCount will return a new one dimensional array of integers. There is a catch - you are required to implement two methods in order to solve this problem. One of these methods (countCapitalLetters) will be a helper method and will perform the task of counting and returning how many capital letters are in a single word. In other words, the method capitalCount will call (or use) the method countCapitalLetters in order to achieve the desired output. Hint: You can use the statement Character.isAlphabetic( … ) to determine whether a character is an alphabetic character. 
+4. Given an array of Strings, write a method called capitalCount that calculates the number of capital letters in each String and stores them into an array. The method capitalCount will return a new one dimensional array of integers. 
+There is a catch - you are required to implement two methods in order to solve this problem. One of these methods (countCapitalLetters) will be a helper method and will perform the task of counting and returning how many capital letters are in a single word. In other words, the method capitalCount will call (or use) the method countCapitalLetters in order to achieve the desired output. Hint: You can use the statement Character.isAlphabetic( … ) to determine whether a character is an alphabetic character. 
 
 Method: capitalCount
 
